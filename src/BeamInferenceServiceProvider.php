@@ -1,9 +1,9 @@
 <?php
 
-namespace Splicewire\BeamInference;
+namespace Splicewire\Beam\Inference;
 
 use Illuminate\Support\ServiceProvider;
-use Splicewire\BeamInference\Prism\PrismStructuredLlm;
+use Splicewire\Beam\Inference\Prism\PrismStructuredLlm;
 
 /**
  * Wires the public inference substrate. It binds the {@see StructuredLlm} port to the vanilla,

@@ -1,14 +1,15 @@
 <?php
 
-namespace Splicewire\BeamInference\Prism;
+namespace Splicewire\Beam\Inference\Prism;
 
 use Prism\Prism\Enums\StructuredMode;
 use Prism\Prism\Facades\Prism;
 use Prism\Prism\Schema\RawSchema as PrismRawSchema;
-use Splicewire\BeamInference\GenerationRequest;
-use Splicewire\BeamInference\GenerationResult;
-use Splicewire\BeamInference\StructuredLlm;
-use Splicewire\BeamInference\Usage;
+use Splicewire\Beam\Inference\GenerationRequest;
+use Splicewire\Beam\Inference\GenerationResult;
+use Splicewire\Beam\Inference\RawSchema;
+use Splicewire\Beam\Inference\StructuredLlm;
+use Splicewire\Beam\Inference\Usage;
 
 /**
  * The vanilla, unmetered reference binding shipped with the public substrate (ADR-0125): one plain
@@ -17,7 +18,7 @@ use Splicewire\BeamInference\Usage;
  * rebinds a metered implementation over the same port app-side, so the metering moat never enters this
  * package.
  *
- * The caller carries a pre-built JSON Schema array ({@see \Splicewire\BeamInference\RawSchema}); we wrap
+ * The caller carries a pre-built JSON Schema array ({@see RawSchema}); we wrap
  * it in Prism's {@see PrismRawSchema} so schema authority stays the caller's projection, not a
  * hand-built Prism schema.
  */

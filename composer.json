@@ -23,18 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Splicewire\\BeamInference\\": "src/"
+            "Splicewire\\Beam\\Inference\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Splicewire\\BeamInference\\Tests\\": "tests/"
+            "Splicewire\\Beam\\Inference\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Splicewire\\BeamInference\\BeamInferenceServiceProvider"
+                "Splicewire\\Beam\\Inference\\BeamInferenceServiceProvider"
             ]
         },
         "merge-plugin": {
