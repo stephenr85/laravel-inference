@@ -22,7 +22,7 @@ use Splicewire\Beam\Inference\Usage;
  * it in Prism's {@see PrismRawSchema} so schema authority stays the caller's projection, not a
  * hand-built Prism schema.
  */
-final class PrismStructuredLlm implements StructuredLlm
+class PrismStructuredLlm implements StructuredLlm
 {
     public function generate(GenerationRequest $request): GenerationResult
     {
