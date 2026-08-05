@@ -23,7 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Splicewire\\Beam\\Inference\\": "src/"
+            "Splicewire\\Beam\\Inference\\": "src/",
+            "Splicewire\\Beam\\Agent\\": "src/Agent/"
         }
     },
     "autoload-dev": {
@@ -51,6 +52,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "pint": "@php -d memory_limit=512M vendor/bin/pint"
+        "pint": "@php -d memory_limit=512M vendor/bin/pint",
+        "test": "@php vendor/bin/phpunit"
     }
 }
