@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Beam\Agent;
+namespace Rushing\Inference\Agent;
 
-use Splicewire\Beam\Inference\GenerationResult;
+use Rushing\Inference\GenerationResult;
 
 /**
  * The result of one agent turn — the Agent-seam sibling of {@see GenerationResult}.

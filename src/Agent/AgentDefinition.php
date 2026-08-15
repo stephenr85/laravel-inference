@@ -1,20 +1,20 @@
 <?php
 
-namespace Splicewire\Beam\Agent;
+namespace Rushing\Inference\Agent;
 
 use ReflectionClass;
-use Splicewire\Beam\Agent\Attributes\MaxSteps;
-use Splicewire\Beam\Agent\Attributes\Model;
-use Splicewire\Beam\Agent\Attributes\Provider;
-use Splicewire\Beam\Agent\Attributes\Temperature;
-use Splicewire\Beam\Agent\Contracts\Agent;
-use Splicewire\Beam\Agent\Contracts\CanActAsTool;
-use Splicewire\Beam\Agent\Contracts\Conversational;
-use Splicewire\Beam\Agent\Contracts\HasMiddleware;
-use Splicewire\Beam\Agent\Contracts\HasProviderOptions;
-use Splicewire\Beam\Agent\Contracts\HasStructuredOutput;
-use Splicewire\Beam\Agent\Contracts\HasTools;
-use Splicewire\Beam\Agent\Contracts\Promptable;
+use Rushing\Inference\Agent\Attributes\MaxSteps;
+use Rushing\Inference\Agent\Attributes\Model;
+use Rushing\Inference\Agent\Attributes\Provider;
+use Rushing\Inference\Agent\Attributes\Temperature;
+use Rushing\Inference\Agent\Contracts\Agent;
+use Rushing\Inference\Agent\Contracts\CanActAsTool;
+use Rushing\Inference\Agent\Contracts\Conversational;
+use Rushing\Inference\Agent\Contracts\HasMiddleware;
+use Rushing\Inference\Agent\Contracts\HasProviderOptions;
+use Rushing\Inference\Agent\Contracts\HasStructuredOutput;
+use Rushing\Inference\Agent\Contracts\HasTools;
+use Rushing\Inference\Agent\Contracts\Promptable;
 
 /**
  * The **normalizer stub** of the Agent seam (PRD §3): unifies the two definition sources into one

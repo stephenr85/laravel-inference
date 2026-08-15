@@ -1,9 +1,9 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Attributes;
+namespace Rushing\Inference\Agent\Attributes;
 
 use Attribute;
-use Splicewire\Beam\Agent\AgentDefinition;
+use Rushing\Inference\Agent\AgentDefinition;
 
 /**
  * Class-declared agents pin their model with `#[Model('claude-sonnet-5')]`. Mirrors `laravel/ai`'s

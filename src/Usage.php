@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 /**
  * Token usage of one structured-generation call. A Prism-free value object so {@see GenerationResult}

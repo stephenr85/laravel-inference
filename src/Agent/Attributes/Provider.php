@@ -1,9 +1,9 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Attributes;
+namespace Rushing\Inference\Agent\Attributes;
 
 use Attribute;
-use Splicewire\Beam\Agent\AgentDefinition;
+use Rushing\Inference\Agent\AgentDefinition;
 
 /**
  * Class-declared agents pin their LLM provider with `#[Provider('anthropic')]`. Mirrors `laravel/ai`'s

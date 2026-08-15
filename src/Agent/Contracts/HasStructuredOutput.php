@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
-use Splicewire\Beam\Inference\RawSchema;
+use Rushing\Inference\RawSchema;
 
 /**
  * Opt-in capability: the agent constrains its output to a JSON schema. Mirrors `laravel/ai`'s

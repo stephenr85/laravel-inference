@@ -1,19 +1,19 @@
 <?php
 
-namespace Splicewire\Beam\Inference\Tests\Agent;
+namespace Rushing\Inference\Tests\Agent;
 
 use PHPUnit\Framework\TestCase;
-use Splicewire\Beam\Agent\AgentDefinition;
-use Splicewire\Beam\Agent\AgentRequest;
-use Splicewire\Beam\Agent\AgentResult;
-use Splicewire\Beam\Agent\ClosureAgentRunner;
-use Splicewire\Beam\Agent\Contracts\Agent;
-use Splicewire\Beam\Agent\Contracts\AgentRunner;
-use Splicewire\Beam\Agent\Contracts\CanActAsTool;
-use Splicewire\Beam\Agent\Contracts\Promptable;
-use Splicewire\Beam\Agent\Usage;
-use Splicewire\Beam\Inference\Tests\Agent\Fakes\BareAgent;
-use Splicewire\Beam\Inference\Tests\Agent\Fakes\FakeAgent;
+use Rushing\Inference\Agent\AgentDefinition;
+use Rushing\Inference\Agent\AgentRequest;
+use Rushing\Inference\Agent\AgentResult;
+use Rushing\Inference\Agent\ClosureAgentRunner;
+use Rushing\Inference\Agent\Contracts\Agent;
+use Rushing\Inference\Agent\Contracts\AgentRunner;
+use Rushing\Inference\Agent\Contracts\CanActAsTool;
+use Rushing\Inference\Agent\Contracts\Promptable;
+use Rushing\Inference\Agent\Usage;
+use Rushing\Inference\Tests\Agent\Fakes\BareAgent;
+use Rushing\Inference\Tests\Agent\Fakes\FakeAgent;
 
 /**
  * Proves the Agent interface family is coherent end-to-end without any engine: a fake in-package agent

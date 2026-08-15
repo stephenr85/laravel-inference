@@ -1,12 +1,12 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
 use Stringable;
 
 /**
  * The open, engine-agnostic **Agent seam** (PRD §3, ADR issue 06 — sibling of the {@see
- * \Splicewire\Beam\Inference\StructuredLlm} port). This marker is the convergence surface: any agent —
+ * \Rushing\Inference\StructuredLlm} port). This marker is the convergence surface: any agent —
  * a DB-configured `Agent` row *or* a class-declared agent (marker + `#[Provider]`/`#[Model]`/… attributes)
  * — satisfies it, and both a Prism adapter (Tower, private) and a future `laravel/ai` adapter plug in
  * behind the same {@see AgentRunner} port. Method name mirrors `laravel/ai`'s Agent contract.

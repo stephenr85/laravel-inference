@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 /**
  * A named, pre-built JSON Schema array (from a Data->JSON-Schema generator) carried to the LLM seam.

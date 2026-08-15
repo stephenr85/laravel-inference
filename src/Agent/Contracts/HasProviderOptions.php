@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
-use Splicewire\Beam\Inference\GenerationRequest;
+use Rushing\Inference\GenerationRequest;
 
 /**
  * Opt-in capability: the agent carries per-provider transport options. Mirrors `laravel/ai`'s

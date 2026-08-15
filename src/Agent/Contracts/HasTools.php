@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
 /**
  * Opt-in capability: the agent exposes callable tools to the model. Mirrors `laravel/ai`'s `HasTools`.

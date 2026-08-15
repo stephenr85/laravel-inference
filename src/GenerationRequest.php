@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 /**
  * A single structured-generation call, domain-agnostic. The caller assembles the LLM target (per-call

@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Beam\Inference\Tests\Agent\Fakes;
+namespace Rushing\Inference\Tests\Agent\Fakes;
 
-use Splicewire\Beam\Agent\Contracts\Agent;
+use Rushing\Inference\Agent\Contracts\Agent;
 use Stringable;
 
 /**

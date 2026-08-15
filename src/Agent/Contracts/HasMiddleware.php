@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
 /**
  * Opt-in capability: the agent wraps its turn in middleware. Mirrors `laravel/ai`'s `HasMiddleware`.

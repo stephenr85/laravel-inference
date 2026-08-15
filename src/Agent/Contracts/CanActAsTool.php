@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
 /**
  * Opt-in capability: the agent can be exposed to another agent as a callable tool (a sub-agent). Mirrors

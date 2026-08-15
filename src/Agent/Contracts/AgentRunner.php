@@ -1,10 +1,10 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
-use Splicewire\Beam\Agent\AgentRequest;
-use Splicewire\Beam\Agent\AgentResult;
-use Splicewire\Beam\Inference\StructuredLlm;
+use Rushing\Inference\Agent\AgentRequest;
+use Rushing\Inference\Agent\AgentResult;
+use Rushing\Inference\StructuredLlm;
 
 /**
  * The **runner port** of the Agent seam — the Agent-seam sibling of {@see StructuredLlm}.

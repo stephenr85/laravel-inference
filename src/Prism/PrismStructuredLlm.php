@@ -1,15 +1,15 @@
 <?php
 
-namespace Splicewire\Beam\Inference\Prism;
+namespace Rushing\Inference\Prism;
 
 use Prism\Prism\Enums\StructuredMode;
 use Prism\Prism\Facades\Prism;
 use Prism\Prism\Schema\RawSchema as PrismRawSchema;
-use Splicewire\Beam\Inference\GenerationRequest;
-use Splicewire\Beam\Inference\GenerationResult;
-use Splicewire\Beam\Inference\RawSchema;
-use Splicewire\Beam\Inference\StructuredLlm;
-use Splicewire\Beam\Inference\Usage;
+use Rushing\Inference\GenerationRequest;
+use Rushing\Inference\GenerationResult;
+use Rushing\Inference\RawSchema;
+use Rushing\Inference\StructuredLlm;
+use Rushing\Inference\Usage;
 
 /**
  * The vanilla, unmetered reference binding shipped with the public substrate (ADR-0125): one plain

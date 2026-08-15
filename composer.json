@@ -1,7 +1,7 @@
 {
-    "name": "splicewire/laravel-beam-inference",
-    "description": "The public structured-generation substrate for the Splicewire estate: a Prism-free StructuredLlm port plus its envelope value objects (GenerationRequest, GenerationResult, RawSchema, Usage) and a plain vanilla Prism::structured() binding. A satellite wires its own Prism/keys and reuses the shape; the Splicewire platform rebinds a metered binding over the same port. The metering moat never enters this package (ADR-0125, amends ADR-0023).",
-    "keywords": ["laravel", "beam", "inference", "structured-generation", "prism", "llm"],
+    "name": "rushing/laravel-inference",
+    "description": "A vendor-neutral structured-generation substrate: a Prism-free StructuredLlm port plus its envelope value objects (GenerationRequest, GenerationResult, RawSchema, Usage) and a plain vanilla Prism::structured() binding. A consumer wires its own Prism/keys and reuses the shape; a platform may rebind a metered binding over the same port. The metering moat never enters this package (splicewire-app ADR-0125, amends ADR-0023; relocated to the rushing vendor by ADR-0205).",
+    "keywords": ["laravel", "inference", "structured-generation", "prism", "llm"],
     "license": "proprietary",
     "authors": [
         {
@@ -23,19 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Splicewire\\Beam\\Inference\\": "src/",
-            "Splicewire\\Beam\\Agent\\": "src/Agent/"
+            "Rushing\\Inference\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Splicewire\\Beam\\Inference\\Tests\\": "tests/"
+            "Rushing\\Inference\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Splicewire\\Beam\\Inference\\BeamInferenceServiceProvider"
+                "Rushing\\Inference\\InferenceServiceProvider"
             ]
         },
         "merge-plugin": {

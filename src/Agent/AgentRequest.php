@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Beam\Agent;
+namespace Rushing\Inference\Agent;
 
-use Splicewire\Beam\Inference\GenerationRequest;
+use Rushing\Inference\GenerationRequest;
 
 /**
  * A single agent turn, engine-agnostic — the Agent-seam sibling of {@see GenerationRequest}.

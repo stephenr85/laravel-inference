@@ -1,10 +1,10 @@
 <?php
 
-namespace Splicewire\Beam\Agent;
+namespace Rushing\Inference\Agent;
 
 use Closure;
-use Splicewire\Beam\Agent\Contracts\AgentRunner;
-use Splicewire\Beam\Inference\ClosureStructuredLlm;
+use Rushing\Inference\Agent\Contracts\AgentRunner;
+use Rushing\Inference\ClosureStructuredLlm;
 
 /**
  * An {@see AgentRunner} backed by closures — the test/seed default and the simplest host binding, mirroring

@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 /**
  * The single structured-generation seam (ADR-0125, amends ADR-0023 which originally placed this seam

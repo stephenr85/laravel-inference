@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 use Closure;
 

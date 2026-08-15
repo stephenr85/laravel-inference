@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Inference;
+namespace Rushing\Inference;
 
 /**
  * The result of a structured-generation call: the raw structured payload the model returned (matching

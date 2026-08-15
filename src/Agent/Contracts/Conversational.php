@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
 /**
  * Opt-in capability: the agent carries prior conversation turns. Mirrors `laravel/ai`'s `Conversational`

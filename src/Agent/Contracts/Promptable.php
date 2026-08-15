@@ -1,9 +1,9 @@
 <?php
 
-namespace Splicewire\Beam\Agent\Contracts;
+namespace Rushing\Inference\Agent\Contracts;
 
-use Splicewire\Beam\Agent\AgentDefinition;
-use Splicewire\Beam\Agent\AgentRequest;
+use Rushing\Inference\Agent\AgentDefinition;
+use Rushing\Inference\Agent\AgentRequest;
 
 /**
  * The `Promptable`-equivalent of the Agent seam: something that can normalize itself into a single
