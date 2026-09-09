@@ -3,6 +3,8 @@
 namespace Rushing\Inference;
 
 use Illuminate\Support\ServiceProvider;
+use Prism\Prism\PrismManager;
+use Rushing\Inference\Prism\OpenAI;
 use Rushing\Inference\Prism\PrismStructuredLlm;
 
 /**
@@ -17,5 +19,11 @@ class InferenceServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(StructuredLlm::class, PrismStructuredLlm::class);
+        $this->app->afterResolving(PrismManager::class, static function ($manager): void {
+            $manager->extend('openai', static fn ($app, array $config) => new OpenAI(
+                apiKey: $config['api_key'] ?? '', url: $config['url'],
+                organization: $config['organization'] ?? null, project: $config['project'] ?? null,
+            ));
+        });
     }
 }
